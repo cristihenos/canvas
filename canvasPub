@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="mainCSS/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<script src="mainJS/PubAll.js"></script>
+	<title></title>
+</head>
+<body>
+	<div class="head">
+		<h1 class="styleText">TITLE PAGE</h1>
+	</div>
+	<div class="container">
+		<h3 class="text-center styleText">Panouri canvas in Base64 din JPG, PNG, GIF, WebP, SVG sau BMP:</h3>
+		<h3 class="text-center styleText">Interactiv:</h3><br>
+			<div class="canvasBody">
+				<center>
+					<canvas  id="can1"></canvas>
+					<canvas  id="can2"></canvas>
+					<canvas  id="can3"></canvas>
+				</center>
+			</div>
+		<h3 class="text-center styleText">Clasic:</h3><br>
+			<div class="canvasBody">
+				<center>
+					<canvas  id="can4"></canvas>
+					<canvas  id="can5"></canvas>
+					<canvas  id="can6"></canvas>
+				</center>
+			</div>
+		<h3 class="text-center styleText">1.Elemente desenate in canvas:</h3><br>
+			<div class="canvasBody">
+				<center>
+					<canvas  id="can7"></canvas>
+					<canvas  id="can8"></canvas>
+					<canvas  id="can9"></canvas>
+				</center>
+			</div>
+		<h3 class="text-center styleText">2.Elemente desenate in canvas:</h3><br>
+			<div class="canvasBody">
+				<center>
+					<canvas  id="can10"></canvas>
+					<canvas  id="can11"></canvas>
+					<canvas  id="can12"></canvas>
+				</center>
+			</div>
+				</div><br>
+	<div class="head">
+		<h2 class="styleText">DOWN PAGE</h2>
+	</div>
+			
+</body>
+</html>
