@@ -1,5 +1,3 @@
-
-
 body{
 	
 	font-family: 'Comfortaa', cursive;
@@ -7,6 +5,11 @@ body{
 
 td{
 	padding: 10px;
+}
+
+i{
+	padding: 0px 0px 0px 40px;
+	font-size: 12px;
 }
 
 .head{
@@ -32,27 +35,27 @@ td{
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: #f1f1f1;
-  }
+	  body {
+	    background-color: #f1f1f1;
+	  }
 
-  .head{
-	width: auto;
-	height: 75px;
-	background-color:#ff8246;
-	text-align: center;
+	  .head{
+		width: auto;
+		height: 75px;
+		background-color:#ff8246;
+		text-align: center;
+		}
+
+		.styleText{
+		padding: 15px 3px 3px 3px; 
+		font-size: 15px;
 	}
-
-	.styleText{
-	padding: 15px 3px 3px 3px; 
-	font-size: 15px;
-}
 }
 
 
 
-
-
-
-
-
+.success{
+	padding: 50px;
+	display: flex;
+	justify-content: center;
+}
