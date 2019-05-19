@@ -246,7 +246,7 @@ function newLoad8() {
 							    ctx.fillRect(j * 10, i * 10, 5, 5);
 							  };
 							};
-						ctx.font = '50px Calibri';
+						ctx.font = '48px Calibri';
 						ctx.fillText('#SlaveToLOVE', 10, 95);
 					 	ctx.closePath();
 																			
