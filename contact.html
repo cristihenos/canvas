@@ -11,34 +11,39 @@
 </head>
 <body>
   <div class="head">
-    <h1 class="styleText">TITLE PAGE</h1>
+    <h1 class="styleText">CANVAS-SVG-GIF personalizate</h1>
     <button type="button" class="btn btn-warning"><a href="index.html">Home</a></button>
     <button type="button" class="btn btn-warning"><a href="">SVG/PNG</a></button>
     <button type="button" class="btn btn-warning"><a href="contact.html">Contact</a></button>
   </div><br>
   <div class="container">
       <div class="form1">
-        <form name="contact" method="POST" data-netlify="true">
+        <form  action="/success.html" name="contact" method="POST" data-netlify="true">
              <table>
                 <tr>
                   <td>Nume: </td>
-                  <td><input type="text" name="name"></td>
+                  <td><input class="form-control" type="text" name="name" required></td>
                 </tr> 
                 <tr>
                   <td>E-mail: </td>
-                  <td><input type="email" name="email"></td>
+                  <td><input class="form-control" type="email" name="email" required></td>
                 </tr>
                   <tr><td>Mesaj: </td>
-                  <td><textarea cols="20" rows="10" maxlength="150"></textarea></td>
+                  <td><textarea class="form-control" cols="20" rows="10" maxlength="150" required></textarea>
+                      <label><i>Max. 150 de caractere</i></label>
+                  </td>
                 </tr>
                 <tr>
                   <td colspan="2" align="center">
-                  <input type="submit" value="Trimite">
+                  <input class="btn btn-success" type="submit" value="Trimite">
                 </td>
                 </tr>
              </table>
          </form>
       </div>
-	</div>
+	</div><br>
+  <div class="head"><br>
+    <p>Toate drepturile rezervate</p>
+  </div>
 </body>
 </html>
