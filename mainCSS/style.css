@@ -1,3 +1,4 @@
+
 body{
 	
 	font-family: 'Comfortaa', cursive;
@@ -53,9 +54,10 @@ i{
 }
 
 
-
 .success{
-	padding: 50px;
+	margin-top: 20px;
+	padding: 10px;
 	display: flex;
 	justify-content: center;
 }
+
