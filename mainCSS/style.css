@@ -1,0 +1,46 @@
+
+body{
+	
+	font-family: 'Comfortaa', cursive;
+}
+
+
+.head{
+	width: auto;
+	height: 150px;
+	background-color:#ff8246;
+	text-align: center;
+}
+
+.styleText{
+	padding: 25px 5px 5px 5px; 
+	font-size: 35px;
+}
+
+.canvasBody{
+   	background-color:#373a6d;
+   	border-radius: 5px; 
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #f1f1f1;
+    }
+
+  .head{
+	width: auto;
+	height: 75px;
+	background-color:#ff8246;
+	text-align: center;
+	  }
+
+	.styleText{
+	padding: 15px 3px 3px 3px; 
+	font-size: 15px;
+    }
+}
+
+
+
+
