@@ -247,7 +247,7 @@ function newLoad8() {
 							  };
 							};
 						ctx.font = '46px Calibri';
-						ctx.fillText('#SlaveToLOVE', 8, 95);
+						ctx.fillText('#SlaveToLOVE', 6, 95);
 					 	ctx.closePath();
 																			
 					}; //  function drawcolorText()
