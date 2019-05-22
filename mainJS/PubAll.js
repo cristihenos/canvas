@@ -47,7 +47,7 @@ function newLoad11() {
 
 	 let canvas=document.querySelector("#can11");
 	 canvas.height = 150;
-	 canvas.width = 245;
+	 canvas.width = 290;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -138,7 +138,7 @@ function newLoad10() {
 
 	 let canvas=document.querySelector("#can10");
 	 canvas.height = 150;
-	 canvas.width = 245;
+	 canvas.width = 290;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -175,7 +175,7 @@ function newLoad9() {
 
 	 let canvas=document.querySelector("#can9");
 	 canvas.height = 150;
-	 canvas.width = 245;
+	 canvas.width = 290;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -218,7 +218,7 @@ function newLoad8() {
 
 	 let canvas=document.querySelector("#can8");
 	 canvas.height = 150;
-	 canvas.width = 245;
+	 canvas.width = 290;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -264,7 +264,7 @@ function newLoad7() {
 
 	 let canvas=document.querySelector("#can7");
 	 canvas.height = 150;
-	 canvas.width = 245;
+	 canvas.width = 290;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -308,7 +308,7 @@ function newLoad6() {
 
 	 let canvas=document.querySelector("#can6");
 	 canvas.height = 150;
-	 canvas.width = 245;
+	 canvas.width = 290;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -345,7 +345,7 @@ function newLoad5() {
 
 	 let canvas=document.querySelector("#can5");
 	 canvas.height = 150;
-	 canvas.width = 245;
+	 canvas.width = 290;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -383,7 +383,7 @@ function newLoad4() {
 	 let canvas=document.querySelector("#can4");
 	 canvas.setAttribute("class", "canvasPub");
 	 canvas.height = 150;
-	 canvas.width = 245;
+	 canvas.width = 290;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -417,7 +417,7 @@ function newLoad3() {
 
 	let canvas=document.querySelector("#can3");
 	 canvas.height = 150;
-	 canvas.width =240;
+	 canvas.width =290;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -462,7 +462,7 @@ function newLoad2() {
 
 	 let canvas=document.querySelector("#can2");
 	 canvas.height = 150;
-	 canvas.width = 245;
+	 canvas.width = 290;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -502,7 +502,7 @@ function newLoad1() {
 
 	 let canvas=document.querySelector("#can1");
 	 canvas.height = 150;
-	 canvas.width = 245;
+	 canvas.width = 290;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
