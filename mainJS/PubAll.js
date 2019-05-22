@@ -417,7 +417,7 @@ function newLoad3() {
 
 	let canvas=document.querySelector("#can3");
 	 canvas.height = 150;
-	 canvas.width =240;
+	 canvas.width =270;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
