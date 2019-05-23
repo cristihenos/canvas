@@ -47,7 +47,7 @@ function newLoad11() {
 
 	 let canvas=document.querySelector("#can11");
 	 canvas.height = 150;
-	 canvas.width = 270;
+	 canvas.width = 245;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -64,12 +64,11 @@ function newLoad11() {
 		 
 		const emojiArray = ['🍉','🍒','🍓','🍌','🍍'];
 
-
 		const init = () => {
 		  circleArray.length = 0
 		  for (let i = 0; i < circlesCount; i++) {
 		    const radius = Math.random() * 30 + 10;
-		    const x = Math.random() * (250 - radius  * 2) + radius;
+		    const x = Math.random() * (200 - radius  * 2) + radius;
 		    const y = Math.random() * (170 - radius  * 2) + radius;
 		    const dx = (Math.random() - 0.5) * 2;
 		    const dy = (Math.random() - 0.5) * 2;
@@ -138,7 +137,7 @@ function newLoad10() {
 
 	 let canvas=document.querySelector("#can10");
 	 canvas.height = 150;
-	 canvas.width = 270;
+	 canvas.width = 245;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -175,7 +174,7 @@ function newLoad9() {
 
 	 let canvas=document.querySelector("#can9");
 	 canvas.height = 150;
-	 canvas.width = 270;
+	 canvas.width = 245;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -198,10 +197,10 @@ function newLoad9() {
 							  };
 							};
 
-						ctx.font = '40px Comic Sans MS';
-						ctx.fillText('2 x 2 = 4 ✔️', 30, 34);
-						ctx.fillText('5 x 6 = 56❌', 30, 89);
-						ctx.fillText('3 x 8 = 24 ✔️', 30, 143);
+						ctx.font = '35px Comic Sans MS';
+						ctx.fillText('2 x 2 = 4 ✔️', 10, 34);
+						ctx.fillText('5 x 6 = 56❌', 10, 89);
+						ctx.fillText('3 x 8 = 24 ✔️', 10, 143);
 					 	ctx.closePath();
 																			
 					}; //  function drawtext()
@@ -218,7 +217,7 @@ function newLoad8() {
 
 	 let canvas=document.querySelector("#can8");
 	 canvas.height = 150;
-	 canvas.width = 270;
+	 canvas.width = 245;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -242,19 +241,17 @@ function newLoad8() {
 					 	ctx.beginPath();
 					 	for (let i = 0; i < 60; i++) {
 							  for (let j = 0; j < 60; j++) {
-							    ctx.fillStyle = `rgb(${i * 25}, ${j * 25}, ${(i+j) * 20})`;
-							    ctx.fillRect(j * 10, i * 10, 5, 5);
+							    ctx.fillStyle = `rgb(${i * 25}, ${j * 5}, ${(i+j) * 50})`;
+							    ctx.fillRect(j * 7, i * 7, 5, 5);
 							  };
 							};
-						ctx.font = '50px Calibri';
+						ctx.font = '40px Calibri';
 						ctx.fillText('#SlaveToLOVE', 10, 95);
 					 	ctx.closePath();
 																			
 					}; //  function drawcolorText()
 
 			drawcolorText();
-				
-
 
 	 }; //function drawPub()
 
@@ -264,7 +261,7 @@ function newLoad7() {
 
 	 let canvas=document.querySelector("#can7");
 	 canvas.height = 150;
-	 canvas.width = 270;
+	 canvas.width = 245;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -289,7 +286,7 @@ function newLoad7() {
 					 	for (let i = 0; i < 60; i++) {
 							  for (let j = 0; j < 60; j++) {
 							    ctx.fillStyle = `rgb(${i * 65}, ${j * 32}, ${(i+j) * 7})`;
-							    ctx.fillRect(j * 20, i * 20, 20, 20);
+							    ctx.fillRect(j * 15, i * 15, 20, 20);
 							  };
 							};
 					 	ctx.closePath();
@@ -298,8 +295,6 @@ function newLoad7() {
 
 			drawcolor();
 				
-
-
 	 }; //function drawPub()
 
 }; // newLoad Function 
@@ -308,7 +303,7 @@ function newLoad6() {
 
 	 let canvas=document.querySelector("#can6");
 	 canvas.height = 150;
-	 canvas.width = 270;
+	 canvas.width = 245;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -317,9 +312,8 @@ function newLoad6() {
 	 let interval=setInterval(drawPub, 13); // Start the function draw with 13 frame/sec
 
 	 let chocolateBar=new Image();
-	 let Xoreo=30;
+	 let Xoreo=1;
 	 let Yoreo=35;
-	 let dx=1;
 	 
 	 drawPub();
 
@@ -335,8 +329,6 @@ function newLoad6() {
 
 			drawchocolareBar();
 				
-
-
 	 }; //function drawPub()
 
 }; // newLoad Function 
@@ -345,7 +337,7 @@ function newLoad5() {
 
 	 let canvas=document.querySelector("#can5");
 	 canvas.height = 150;
-	 canvas.width = 270;
+	 canvas.width = 245;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -354,10 +346,9 @@ function newLoad5() {
 	 let interval=setInterval(drawPub, 13); // Start the function draw with 13 frame/sec
 
 	 let chocolateBar=new Image();
-	 let XMilka=30;
+	 let XMilka=-2;
 	 let YMilka=35;
-	 let dx=1;
-	 
+
 	 drawPub();
 
 	 function drawPub(){
@@ -372,8 +363,6 @@ function newLoad5() {
 
 			drawchocolareBar();
 			
-
-
 	 }; //function drawPub()
 
 }; // newLoad Function 
@@ -383,7 +372,7 @@ function newLoad4() {
 	 let canvas=document.querySelector("#can4");
 	 canvas.setAttribute("class", "canvasPub");
 	 canvas.height = 150;
-	 canvas.width = 270;
+	 canvas.width = 245;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -392,7 +381,7 @@ function newLoad4() {
 	 let interval=setInterval(drawPub, 15); // Start the function draw with 15 frame/sec
 
 	 let chocolateBar=new Image();
-	 let XMars=30;
+	 let XMars=1;
 	 let YMars=35;
 	 drawPub();
 
@@ -408,7 +397,6 @@ function newLoad4() {
 
 			drawchocolareBar();
 				
-
 	 }; //function drawPub()   IMG 242x87
 
 }; // newLoad Function 
@@ -417,7 +405,7 @@ function newLoad3() {
 
 	let canvas=document.querySelector("#can3");
 	 canvas.height = 150;
-	 canvas.width =270;
+	 canvas.width =245;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -426,7 +414,7 @@ function newLoad3() {
 	 let interval=setInterval(drawPub, 15); // Start the function draw with 15 frame/sec
 
 	 let chocolateBar=new Image();
-	 let XROM=Math.floor((Math.random() * 30) + 1);
+	 let XROM=Math.floor((Math.random() * 10) + 1);
 	 let YROM=Math.floor((Math.random() * 10) + 1);
 	 let dx=1;
 	 let dy=1;
@@ -462,7 +450,7 @@ function newLoad2() {
 
 	 let canvas=document.querySelector("#can2");
 	 canvas.height = 150;
-	 canvas.width = 270;
+	 canvas.width = 245;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -471,7 +459,7 @@ function newLoad2() {
 	 let interval=setInterval(drawPub, 30); // Start the function draw with 30 frame/sec
 
 	 let chocolateBar=new Image();
-	 let XTwix=30;
+	 let XTwix=1;
 	 let YTwix=35	;
 	 let dx=0;
 	 let dy=1;
@@ -502,7 +490,7 @@ function newLoad1() {
 
 	 let canvas=document.querySelector("#can1");
 	 canvas.height = 150;
-	 canvas.width = 270;
+	 canvas.width = 245;
 	 canvas.style.backgroundColor = 'white';
 	 canvas.style.borderRadius = '5px';
 	 canvas.style.border= '1px solid #D8D8D8';
@@ -511,7 +499,7 @@ function newLoad1() {
 	 let interval=setInterval(drawPub, 13); // Start the function draw with 13 frame/sec
 
 	 let chocolateBar=new Image();
-	 let Xsnikers=30;
+	 let Xsnikers=10;
 	 let Ysnikers=35;
 	 let dx=1;
 	 
