@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta property="og:url"           content="https://canvaspub.netlify.com/" />
-    <meta property="og:type"          content="website" />
+  	<meta property="og:type"          content="website" />
     <meta property="og:title"         content="Desene si creatii in HTML-Canvas" />
     <meta property="og:description"   content="Panouri canvas in Base64 din JPG, PNG, GIF, SVG sau BMP" />
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="mainCSS/style.css">
-    <script src="mainJS/PubAll.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140888354-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-140888354-1');
+	</script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="mainCSS/style.css">
+	<script src="mainJS/PubAll.js"></script>
 	<title>Desene si creatii in HTML-Canvas</title>
 </head>
-	<div class="head">
-		<h1>Desene si creatii in HTML-Canvas</h1>
+	<div>
+		<canvas id="head1"></canvas>
 	</div>
 <body>
 	<div class="sticky-top">
@@ -23,53 +30,51 @@
 			<a class="btn btn-warning vertical whatsapp " href="https://wa.me/40769115407?text=Salutare!%20Iti%20trimit%20acest%20mesaj%20de%20pe%20site-ul%20Canvaspub"></a>
 		</div>
 	<div class="container">
-		<h3 class="text-center styleText">Panouri canvas in Base64 din JPG, PNG, GIF, SVG sau BMP:</h3>
-		<h3 class="text-center styleText">Interactiv:</h3><br>
+		<h1 class="text-center styleText1">Desene si creatii in HTML-Canvas</h1>
+		<div class="canvasBody"></div><br>
+		<h3 class="styleText2">Panouri HTML-canvas Interactive:</h3>
 			<div class="canvasBody">
 				<center>
-
 					<canvas  id="can1"></canvas>
 					<canvas  id="can2"></canvas>
 					<canvas  id="can3"></canvas>
 					<canvas  id="can4"></canvas>
 				</center>
 			</div>
-		</div>
+		</div><br>
 	<div class="container">
-		<h3 class="text-center styleText">Clasic:</h3><br>
+		<h3 class="styleText2">Elemente desenate in HTML-canvas statice:</h3>
 			<div class="canvasBody">
 				<center>
-					<canvas  id="can5"></canvas>
 					<canvas  id="can6"></canvas>
 					<canvas  id="can7"></canvas>
 					<canvas  id="can8"></canvas>
+					<canvas  id="can5"></canvas>
+					<canvas  id="can9"></canvas>
+					<canvas  id="can10"></canvas>
+					<canvas  id="can12"></canvas>
+					<canvas  id="can13"></canvas>
 				</center>
 			</div>
 	</div>
 		<div class="container">
-		<h3 class="text-center styleText">1. Elemente desenate in canvas:</h3><br>
+		<h3 class="styleText2">Elemente desenate in HTML-canvas interactive:</h3>
 			<div class="canvasBody">
 				<center>
-					<canvas  id="can9"></canvas>
-					<canvas  id="can10"></canvas>
 					<canvas  id="can11"></canvas>
-					<!-- <canvas  id="can12"></canvas> -->
+					<canvas  id="can14"></canvas>
+					<canvas  id="can15"></canvas>
+					<canvas  id="can16"></canvas>
 				</center>
 			</div>
 		</div>
 	<div class="container">
-		<h3 class="text-center styleText">2. Elemente desenate in canvas interactive:</h3><br>
-			<div class="canvasBody">
-					<center>
-						
-					</center>
+			<div class="container text-center">
+				<div class="fb-like" data-href="https://canvaspub.netlify.com/" data-width="" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
 			</div>
-	</div>
-		<div class="container text-center">
-			<div class="fb-like" data-href="https://canvaspub.netlify.com/" data-width="" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
-		</div>
+	</div><br>
 </body>
 	<div class="head">
-		<h1 class="text-center styleText">Canvaspub 2019 </h1>
+			<p>CanvasPub 2019</p>
 		</div>
 </html>
